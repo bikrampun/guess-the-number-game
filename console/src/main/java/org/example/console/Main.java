@@ -1,7 +1,7 @@
 package org.example.console;
 
 
-import org.example.AppConfig;
+import org.example.config.AppConfig;
 import org.example.MessageGenerator;
 import org.example.NumberGenerator;
 import org.slf4j.Logger;
