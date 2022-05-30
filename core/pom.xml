@@ -29,6 +29,14 @@
             <groupId>javax.annotation</groupId>
             <artifactId>javax.annotation-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/../libs/lombok-1.18.24.jar</systemPath>
+            <!-- scope tells configuration using jar from system -->
+        </dependency>
+
     </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
