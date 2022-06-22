@@ -17,9 +17,9 @@ public class GameImpl implements Game{
 
     //fields
     @Getter(AccessLevel.NONE)
-    //this will not generate Getter as NumberGenerator class doesn't belong in it.
+    //AccessLevel specify the access modifier for the getter
     private final NumberGenerator numberGenerator;
-
+    //this will not generate Getter as NumberGenerator class doesn't belong in it.
     private final int guessCount;
 
     private int number;
